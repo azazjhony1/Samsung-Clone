@@ -1,0 +1,119 @@
+
+.navbar{
+    height: 56px;
+    display: flex;
+}
+
+.title{
+    width: 15%;
+    font-size: 1.5em;
+}
+
+svg{
+    display: inline-block;
+}
+
+.menus{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-top: 7px;
+}
+
+.lists{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.list{
+    display: inline-block;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.menu2 {
+    display: flex;
+    width: 25em;
+}
+
+.listContainer{
+    height: 3em;
+    width: 70%;
+}
+
+.insideMenu2{
+    width: 100%;
+    display: flex;
+}
+
+.menu2Lists{
+    display: flex;
+    padding-left: 10px;
+    justify-content: right;
+    padding-right: 3em;
+}
+
+.menu2List {
+    padding-left: 20px;
+}
+
+.menuIcons{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.icon{
+    height: 2.5em;
+    width: 1.5em;
+    padding-top: 1em;
+}
+
+.person{
+    height: 2.6em;
+    width: 1.6em;
+}
+
+.liftUp{
+    animation-name: liftUp;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes liftUp {
+    0%{
+        height: 40em;
+    }
+    100%{
+        height: 0;
+    }
+}
+
+
+
+/* 
+.transition-appear{
+    opacity: 0;
+    z-index: 10;
+}
+
+.transition-appear.transition-appear-active{
+opacity: 1;
+    transition: height 500ms linear;
+}
+
+.transition-enter{
+    opacity: 0;
+    z-index: 10;
+}
+
+.transition-enter.transition-enter-active{
+    opacity: 1;
+transition: height 500ms linear;
+}
+ */

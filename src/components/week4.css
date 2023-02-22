@@ -1,0 +1,17 @@
+
+.week4TextBtn{
+transition: 0.2s ease;
+background-color: white;
+}
+
+
+.week4TextBtn:hover {
+    background-color: rgb(216, 212, 212);
+}
+
+.underlineWeek4Btn{
+    color: white;
+}
+.underlineWeek4Btn::after{
+    background-color: white;
+}

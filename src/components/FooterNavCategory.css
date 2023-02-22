@@ -1,0 +1,36 @@
+
+
+
+.footerNavHeading{
+    height: 3.88888889vw;
+    padding: 1.11111111vw 1.66666667vw;
+    font-size: 1.25vw;
+    font-weight: 700;
+    font-family: 'SamsungOne',arial,sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.footerNavCategoryLists{
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+.footerNavCategoryAnchor{
+    cursor: pointer;
+    padding: 0.48611111vw 1.66666667vw;
+    font-size: .97222222vw;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #007aff;
+}
+
+.footerNavCategoryList{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}

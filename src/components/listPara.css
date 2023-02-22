@@ -1,0 +1,16 @@
+
+
+.listParaContainer{
+    height: auto;
+    width: 100%;
+    padding: 0 10em 0 6em;
+}
+
+.listPara{
+    font-size: .83333333vw;
+} 
+
+
+.lastlistPara{
+    margin-bottom: 0;
+}

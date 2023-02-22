@@ -1,0 +1,22 @@
+.tvFrameHead{
+    top: 2em;
+    font-size: 1.66666667vw;
+}
+
+.ownTv{
+    top: 7em;
+}
+
+.tvBtn{
+    bottom: 36em;
+    left: 41%;
+}
+
+.tvSmallImg{
+    position: absolute;
+    height: 10em;
+    width: 10em;
+    top: 16%;
+    left: 25%;
+
+}

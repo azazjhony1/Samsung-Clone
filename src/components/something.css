@@ -1,0 +1,98 @@
+.somethingContainer {
+  width: 100%;
+  height: 20em;
+}
+
+.question {
+  text-align: center;
+}
+
+.questionHeading {
+  font-size: 2.63888889vw;
+  font-family: "SamsungOne", arial, sans-serif;
+  margin-top: 1em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.searchContainer {
+  width: 100%;
+  height: 3.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  height: inherit;
+  width: 27.5em;
+  border: 1px solid #757575;
+  border-radius: 1.52777778vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #f7f7f7;
+}
+
+.searchIcon {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.searchInput {
+  width: 75%;
+  border: none;
+  height: 2em;
+  margin-right: 20px;
+  font-size: 1.25vw;
+  background: #f7f7f7;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border: 2px dotted black;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.searchBtnContainer {
+  height: 8em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.searchBtnList {
+  list-style-type: none;
+  height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  width: 36em;
+  height: 5em;
+  justify-content: center;
+  margin-right: 3em;
+}
+
+.searchBtn{
+    height: 2.22222222vw;
+    font-size: .83333333vw;
+    border: solid 1px rgba(0,0,0,0.15);
+    color: #000;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 1.66666667vw;
+    padding: 0.55555556vw 1.11111111vw;
+    font-family: 'SamsungOne',arial,sans-serif;
+    
+}
+
+.searchBtn:hover{
+    background-color: rgba(0,0,0,0.05);
+}
+
+.searchBtn:focus{
+    border: 2px dotted black;
+}

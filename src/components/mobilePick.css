@@ -1,0 +1,32 @@
+.mobileBigImg {
+  position: absolute;
+  height: 25em;
+  width: 25em;
+  top: 13%;
+  left: 16%;
+}
+
+.gridbox{
+    background-color: #f4f4f4;
+}
+
+.mobileGridBtn {
+  background-color: black;
+  color: white;
+}
+
+.mobileGridBtn:hover {
+  background-color: rgb(49, 43, 43);
+}
+
+.mobileGridHead {
+  color: black;
+}
+
+.mobSmallImg{
+    position: absolute;
+    height: 10em;
+    width: 10em;
+    top: 16%;
+    left: 25%;
+}

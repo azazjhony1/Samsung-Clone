@@ -1,0 +1,31 @@
+.monthsHeading {
+  text-align: center;
+  border: 2px solid black;
+  margin-bottom: 4em;
+}
+
+.monthsContainer {
+  height: 10em;
+  border: 2px solid red;
+  height: 106vh;
+}
+
+.monthsProducts {
+  border: 2px solid blue;
+}
+
+.monthsUl {
+  list-style: none;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  padding-right: 2em;
+}
+
+.monthsLi {
+  padding: 0 20px 0 20px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+

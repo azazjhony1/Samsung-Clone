@@ -1,0 +1,16 @@
+.copyrightContainer {
+  width: 100%;
+  min-height: 6.66666667vw;
+  border: 1px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+}
+
+.paraContainer{
+    margin-left: 2em;
+}
+
+.copyrightPara {
+  font-size: 0.83333333vw;
+  font-family: 'SamsungOne',arial,sans-serif;
+}

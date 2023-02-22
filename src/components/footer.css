@@ -1,0 +1,53 @@
+.footerContainer {
+  width: 100%;
+  border: 2px solid #d9d9d9;
+  height: 4.44444444vw;
+  padding-left: 1.66666667vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerUiLists {
+  display: flex;
+  list-style: none;
+}
+
+.footerUiList {
+  padding: 0vw 0.97222222vw;
+  font-size: 0.83333333vw;
+  font-family: "SamsungOne", arial, sans-serif;
+  cursor: pointer;
+}
+
+.firstUiList {
+  font-weight: 700;
+  margin-right: 15px;
+}
+
+.footerUiList:hover {
+  color: #007aff;
+}
+
+.footerIconLists {
+  margin-right: 1.66666667vw;
+  display: flex;
+  justify-content: space-between;
+    width: 18em;
+}
+
+.footerIconList {
+  list-style: none;
+  cursor: pointer;
+}
+
+.footerIconListPara{
+    display: flex;
+    align-items: center;
+    font-family: 'SamsungOne',arial,sans-serif;
+}
+
+.footerText {
+  font-size: 0.83333333vw;
+
+}

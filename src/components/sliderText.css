@@ -1,0 +1,32 @@
+.sliderContainer{
+
+    height: 18em;
+    width: 34em;
+    position: absolute;
+    top: 20em;
+    left: 7em;
+    border: 2px solid black;
+}
+
+.sliderHeader{
+    height: 7em;
+    width: auto;
+    border: 2px solid white;
+}
+
+.sliderPara{
+    height: 5em;
+    width: auto;
+    border: 2px solid red;
+}
+
+.sliderBtn{
+    border-radius: 50px;
+    margin-top: 3.5em;
+    width: 6.5em;
+    height: 2.5em;
+    background-color: black;
+    color: white;
+    
+}
+

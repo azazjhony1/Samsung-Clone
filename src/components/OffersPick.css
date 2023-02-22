@@ -1,0 +1,142 @@
+
+
+
+.newPickContainer{
+    height: 57em;
+    width: 100%;
+}
+
+.newPickhead{
+    font-weight: 600;
+}
+
+
+.newPickHeadingContainer{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.newPickListsContainer{
+    text-align: center;
+}
+
+.newPickLists{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.newPickList{
+    margin: 0 25px;
+    font-weight: bold;
+    font-size: 1.25vw;
+    cursor: pointer;
+}
+
+.gridContainer{
+    height: 44em;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+    padding: 0 15px;
+
+}
+
+.bigbox{
+    grid-row: 1 / span 2;
+
+}
+
+.gridbox{
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.gridImg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bigBoxGridBtn{
+    bottom: 3em;
+    left: 19em;
+}
+
+.smallBoxGridBtn{
+    bottom: 2em;
+    left: 8em;
+}
+
+
+.gridBtn{
+    position: absolute;
+    transition: 0.2s ease;
+    background-color: white;
+    color: black;
+    font-weight: 100;
+    opacity: 0;
+}
+
+.gridBtn:hover{
+    background-color: rgb(211, 205, 205);
+}
+
+.gridImg{
+    transition: all 0.3s ease;
+}
+
+.gridbox:hover .gridImg{
+    transform: scale(1.06);
+
+}
+
+.gridImgDesc{
+    transition: 0.2s ease;
+}
+
+.gridbox:hover .gridImgDesc{
+    transform: translateY(-25px);
+    opacity: 0;
+}
+
+.gridbox:hover .gridBtn{
+    transform: translateY(-25px);
+    opacity: 100;
+}
+
+.gridImgheading{
+    bottom: 6em;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+}
+
+.gridImgDesc{
+    bottom: 5em;
+    font-weight: normal;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+.gridPara{
+    position: absolute;
+    color: white;
+}
+
+.gridSmallPara{
+    position: absolute;
+    color: white;
+    bottom: 3em;
+}
+.gridSmallDesc{
+    bottom: 1em;
+}
+
+.smallBoxGridBtn{
+    bottom: 0em;
+}

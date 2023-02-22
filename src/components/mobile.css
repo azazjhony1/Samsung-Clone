@@ -1,0 +1,74 @@
+
+
+.mobContainer {
+    height: 50em;
+    margin-bottom: 5em;
+}
+
+
+
+.mobHeading{
+    font-size: 2.63888889vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mobLists{
+    display: flex;
+    justify-content: center;
+}
+
+.mobList{
+    list-style: none;
+    padding: 5px 20px 20px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1.66666667vw;
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+.mobList:hover{
+    color: #555;;
+}
+/* slider css */
+
+.mobSliderImg {
+    height: 55%;
+    width: 55%;
+    margin-top: 10em;
+  }
+  
+  .swiper-wrapper {
+    text-align: center;
+  }
+  
+.sliderTextContainer{
+    text-align: center;
+}
+
+.sliderText{
+    font-size: 3.33333333vw;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+.sliderTextBtn{
+    position: relative ;
+    border-radius: 50px;
+    cursor: pointer;
+    width: auto;
+    background-color: black;
+    color: white;
+    transition: 0.2s ease;
+    font-size: .97222222vw;
+    font-weight: 600;
+    padding: 10px 24px 11px 24px;
+    z-index: 100;
+    border: none;
+}
+
+.sliderTextBtn:hover{
+    background-color: #555;
+}

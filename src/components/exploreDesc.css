@@ -1,0 +1,154 @@
+
+
+.exploreContainer{
+    height: 55em;
+}
+
+.exploreTitle{
+    position: relative;
+    margin: 10px 0 40px 0;
+    font-family: 'SamsungSharpSans',arial,sans-serif;
+    font-size: 2.63888889vw;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.exploreTitleContainer{
+  text-align: center;
+}
+
+.exploreTitle::after{
+  content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.117rem;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+}
+
+.exploreTitle:hover{
+  color: grey;
+}
+
+.exploreTitle:hover::after{
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+
+
+.imgTitleContainer{
+    height: 44em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgContainer{
+    border-radius: 30px;
+    margin-left: 25px;
+}
+
+.size{
+    width: 43em;
+}
+
+.imgTitleContainer img{
+    height: 44em;
+
+    width: 43em;
+    object-fit: cover;
+}
+
+.exploreImg{
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.exploreImg img{
+    transition: all 0.2s ease;
+}
+
+.exploreImg img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+.exploreDescContainer {
+  width: 100%;
+  margin-top: 7em;
+}
+
+
+.flexContainer {
+  height: 5.5em;
+  display: flex;
+}
+
+.flexContainer > p {
+  margin: 0;
+  font-family: "SamsungSharpSans", arial, sans-serif;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.expContainerNumber {
+  width: 10%;
+  display: flex;
+  justify-content: right;
+  padding-top: 4px;
+  font-size: 1.11111111vw;
+}
+
+.expContainerHeading {
+  width: 90%;
+  text-align: left;
+  padding-left: 2em;
+  font-size: 1.66666667vw;
+}
+
+.expBtn {
+  margin-left: 7.5em;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.exploreDesc{
+  position: relative;
+}
+
+.exploreDesc::after{
+  content: '';
+  margin-top: -2em;
+    position: absolute;
+    width: 100%;
+    height: 0.107rem;
+    left: 0;
+    top: 0;
+    background-color: black;
+    transform: scaleX(0);
+    transition: all 0.1s ease;
+}
+
+.exploreDesc:hover::after{
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+
+.expBtnContainer {
+  height: 0;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.exploreDesc:hover .expBtnContainer {
+  height: 5em;
+  opacity: 100%;
+}

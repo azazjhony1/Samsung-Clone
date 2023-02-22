@@ -1,0 +1,126 @@
+.slider-Container{
+  position: relative;
+  height: 55em;
+  z-index: 2;
+  margin-top: 0;
+}
+
+
+.tvSliderImg{
+  height: 100%;
+  width: 100%;
+}
+
+.headUiContainer{
+  position: absolute;
+  top: 1em;
+  z-index: 1;
+}
+
+.pad{
+  /* padding: 5px 20px 20px 32px; */
+  padding-top: 0.27777778vw;
+    padding-bottom: 0.27777778vw;
+}
+
+.headUiCenter{
+  width: 100%;
+  text-align: center;
+}
+
+.mobHeadingFont{
+  font-size: 2.63888889vw;
+}
+
+.styleChange{
+  color: white;
+}
+
+.borderColor {
+  border-color: white !important;
+}
+
+.borderColor::after {
+  background-color: white !important;
+}
+
+.sliderTextContainer{
+  z-index: 2;
+}
+
+.sliderBtnContainer{
+  position: relative;
+  transform: translateY(-20rem);
+  z-index: 100;
+}
+
+.sliderText2{
+  margin-top: 0;
+}
+
+.homeAppBtn{
+  position: relative;
+  border: none;
+  background: transparent;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.homeAppBtn::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.175rem;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  transform: scaleX(0);
+}
+
+.homeAppBtn:hover::after{
+  transform: scaleX(1);
+  transition: transform 0.2s ease;
+}
+
+.active {
+  position: relative;
+  border: 2px dotted black;
+  border-radius: 22px;
+}
+
+.active::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.175rem;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  transform: scaleX(1);
+}
+
+.active:hover::after{
+  transform: scaleX(0);
+  transition: transform 0.2s ease;
+}
+
+.active:hover {
+  background-color: rgba(255,255,255,0.25);
+
+}
+
+.mobBorder {
+  border: 2px dotted black;
+}
+
+.slidertextBtn{
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.slidertextBtn:hover{
+  background-color: #555;
+  position: relative;
+  z-index: 122;
+}
+
